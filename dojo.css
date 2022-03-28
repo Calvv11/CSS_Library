@@ -1,0 +1,64 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn-search {
+    border-radius: 20px;
+    font-weight: 1000;
+    color: rgb(137, 223, 165);
+    background-color: rgba(103, 107, 109, 0.164);
+    width: 120px;
+    border: 2px solid cornflowerblue;
+    height: 30px;
+}
+.btn-add {
+    border-radius: 50%;
+    border: 2px solid;
+    width: 40px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(83, 204, 164);
+}
+.btn-ca {
+    border: 10px black;
+    box-shadow: 3px 3px black;
+    color: whitesmoke;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(67, 115, 219);
+    font-weight: 600;
+}
+.row {
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 500px;
+}
+.col {
+    background-color: darkcyan;
+    width: 75px;
+    height: 75px;
+    font-size: 1.5rem;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    background-color: rgb(88, 88, 88);
+    width: 800px;
+    height: 60px;
+    color: white;
+    margin: 0px auto;
+    padding: 0px;
+}
